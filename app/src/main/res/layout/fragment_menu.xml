@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pic2"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item : 1"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/image"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a"
+        android:layout_toRightOf="@id/image"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Sub-Item : 1"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pic7"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item : 2"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/i1"
+        android:layout_below="@id/b"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/image"
+        android:textSize="25sp"
+        android:text="Sub Item : 2"
+
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_below="@id/i1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pic10"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item : 3"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/i2"
+        android:layout_below="@id/d"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/e"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/i2"
+        android:textSize="25sp"
+        android:text="Sub Item : 3"
+
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_below="@id/i2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pic8"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item : 4"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/i3"
+        android:layout_below="@id/f"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/i3"
+        android:textSize="25sp"
+        android:text="Sub Item : 4"
+
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <ImageView
+        android:id="@+id/i4"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_below="@id/i3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pic5"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item : 5"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/i4"
+        android:layout_below="@id/h"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <TextView
+        android:id="@+id/j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/i"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/i4"
+        android:textSize="25sp"
+        android:text="Sub Item : 5"
+
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+</RelativeLayout>
+</ScrollView>

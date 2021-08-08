@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#B1354E</color>
+    <color name="purple_500">@color/material_on_surface_emphasis_medium</color>
+    <color name="purple_700">#FF2222</color>
+    <color name="teal_200">#00896E</color>
+    <color name="teal_700">#012387</color>
+    <color name="black">#F7000000</color>
+    <color name="white">#4AA47551</color>
+    <color name="brown">#523A28</color>
+</resources>

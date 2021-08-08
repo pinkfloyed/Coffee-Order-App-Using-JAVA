@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Call">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Call">
+<ImageView
+    android:id="@+id/i1"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:src="@drawable/bc"
+    android:background="@color/white"
+    android:layout_marginBottom="450dp"
+    />
+
+<ImageView
+    android:id="@+id/i2"
+    android:layout_marginTop="400dp"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/contact"
+    android:paddingRight="20sp"
+    android:background="@color/purple_200"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Contact No :0123456789"
+        android:layout_toRightOf="@id/i2"
+        android:paddingLeft="20sp"
+
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="480dp"
+        android:background="@color/purple_200"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/gmail"
+
+        android:paddingTop="20sp"
+        android:paddingLeft="150dp"
+        android:paddingRight="30sp"
+        android:layout_below="@id/i2"
+
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Email Us"
+        android:gravity="center_vertical"
+        android:onClick="browser"
+        tools:ignore="onClick"
+        android:layout_below="@id/i4"
+        android:paddingLeft="40sp"
+        android:layout_marginTop="6dp"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pinkiakter195@gmail.com"
+        android:layout_below="@id/i3"
+        android:textSize="20sp"
+        android:textColor="@color/brown"
+        android:paddingLeft="10dp"
+        android:id="@+id/i4"
+        />
+    <ImageView
+        android:id="@+id/i5"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/git"
+
+        android:paddingTop="20sp"
+        android:paddingLeft="150dp"
+        android:paddingRight="30sp"
+        android:layout_below="@id/btn"
+
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Github Account"
+
+
+        android:onClick="git"
+        tools:ignore="onClick"
+        android:layout_below="@id/i5"
+        android:paddingLeft="40sp"
+        android:layout_marginTop="6dp"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <ImageView
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/phone"
+        android:paddingTop="10sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/btn1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~ PINKI AKTER"
+        android:paddingLeft="200dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        />
+</RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:text="A YAWN IS A SILENT SCREAM FOR COFFEE"
+   android:textSize="20sp"
+   android:textStyle="italic"
+   android:textColor="@color/brown"
+   android:id="@+id/l"
+   />
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="320dp"
+      android:src="@drawable/slide2"
+      />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A coffeehouse, coffee shop, or café is an establishment that primarily serves coffee of various types, e.g. espresso, latte, and cappuccino. ... In continental Europe, cafés serve alcoholic drinks. A coffeehouse may also serve food, such as light snacks, sandwiches, muffins, fruit, or pastries"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_below="@+id/img"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/t"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opening a coffee shop can be extremely profitable if you do it right. Pass by any busy specialty coffee shop and it will likely be full of customers enjoying coffee, espresso, lattes, teas, and a variety of pastries and other goodies. Wi-Fi and other work-friendly features have become commonplace as well, as coffee shops frequently serve as meeting hubs."
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/t"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/im"
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40sp"
+    android:layout_marginBottom="20sp"
+   android:src="@drawable/slide3"
+   />
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:src="@drawable/co"
+      />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="“WHAT GOES BEST WITH A CUP OF COFFEE? ANOTHER CUP.” ~HENRY ROLLINS"
+       android:textColor="@color/teal_700"
+       android:textSize="20dp"
+       android:textStyle="italic"
+       android:layout_below="@+id/t"
+       android:paddingLeft="5dp"
+       android:paddingRight="5dp"
+       android:layout_marginBottom="10dp"
+       android:layout_marginTop="18dp"
+       android:id="@+id/t2"
+      />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:src="@drawable/cologo"
+   />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="~ PINKI AKTER"
+       android:paddingLeft="200dp"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

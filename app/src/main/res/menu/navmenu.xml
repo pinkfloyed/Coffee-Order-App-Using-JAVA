@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_person_pin_circle_24"
+        android:title="About US" />
+    <item android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="Menu"/>
+    <item android:id="@+id/order"
+        android:icon="@drawable/ic_baseline_coffee_24"
+        android:title="Coffee Pay Order"/>
+    <item android:id="@+id/call"
+        android:icon="@drawable/ic_baseline_add_ic_call_24"
+        android:title="Call"/>
+</menu>
